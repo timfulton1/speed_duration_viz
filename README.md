@@ -6,7 +6,7 @@ $$
 t = \frac{D'}{S - CS} \
 $$
 
-where `t` is the performance time (s), `D'` is the curvature constant (m), `S` is the average speed, and `CS` is the critical speed.
+where `t` is the performance time (s), `D'` is the curvature constant (m), `S` is the average speed (m/s), and `CS` is the critical speed (m/s).
 
 
 This repo contains the code used to create a marginal plot that displays the two parameters for elite men and women runners. The scatterplot displays the CS and D' for individual runners, while the boxplots and density curves display the distributions of CS and D' for men and women. Boxes display the median value with 25th and 75th percentiles and whiskers display the 5th and 95th percentiles. 
