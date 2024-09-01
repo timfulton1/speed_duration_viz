@@ -6,7 +6,7 @@ This repo contains the code used to create an example marginal plot. This scatte
 ![speed_duration](https://github.com/user-attachments/assets/94d4c485-8556-4f90-9fc8-f11e4aaf1948)
 
 
-#### Brief background on the variables
+### Brief background on the variables
 The sustainable duration of running exercise is dependent upon the intensity, or speed, at which the exercise is performed. This fundamental concept is known as the speed-duration relationship, and for exercise durations of ~2–40 minutes, can be modeled by the hyperbolic equation
 
 $$
