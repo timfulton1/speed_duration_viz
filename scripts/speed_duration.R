@@ -6,7 +6,7 @@ library(forcats)
 library(showtext)
 
 # Load data
-speed_duration_raw <- read.csv("data/cs_data.csv")
+speed_duration <- read.csv("data/cs_data.csv")
 
 # Assign colors
 color1 = "#edae49"
@@ -20,7 +20,7 @@ showtext_auto()
 
 ## Render plots
 # Scatter plot 
-scatter_plot <- speed_duration_raw %>% 
+scatter_plot <- speed_duration %>% 
   ggplot(mapping = aes(x = d_prime, y = critical_speed, fill = gender, color = gender)) +
   theme_classic() + 
   theme(
@@ -55,7 +55,7 @@ scatter_plot <- speed_duration_raw %>%
 
 
 # x density plot
-density_x <- speed_duration_raw %>% 
+density_x <- speed_duration %>% 
   ggplot(mapping = aes(x = d_prime, fill = factor(gender), color = factor(gender))) +
   theme_void() + 
   theme(legend.position = "none") +
@@ -72,7 +72,7 @@ density_x <- speed_duration_raw %>%
 
 
 # y density plot
-density_y <- speed_duration_raw %>% 
+density_y <- speed_duration %>% 
   ggplot(mapping = aes(x = critical_speed, fill = factor(gender), color = factor(gender))) +
   theme_void() + 
   theme(legend.position = "none") +
@@ -90,7 +90,7 @@ density_y <- speed_duration_raw %>%
 
 
 # x boxplot 
-boxplot_x <- speed_duration_raw %>% 
+boxplot_x <- speed_duration %>% 
   ggplot(mapping = aes(x = fct_rev(factor(gender)), y = d_prime, fill = factor(gender), color = factor(gender))) +
   theme_void() +
   coord_flip() +
@@ -113,7 +113,7 @@ boxplot_x <- speed_duration_raw %>%
 
 
 # y boxplot 
-boxplot_y <- speed_duration_raw %>% 
+boxplot_y <- speed_duration %>% 
   ggplot(mapping = aes(x = factor(gender), y = critical_speed, fill = factor(gender), color = factor(gender))) +
   theme_void() +
   geom_boxplot(
