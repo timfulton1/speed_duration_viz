@@ -1,6 +1,6 @@
 # Speed Duration Marginal Plot
 
-The sustainable duration of running exercise is dependent upon the intensity, or speed, at which the exercise is performed. This fundamental concept is known as the speed-duration relationship, and for exercise durations of ~2–40 minutes, can be modeled by the hyperbolic equation:
+The sustainable duration of running exercise is dependent upon the intensity, or speed, at which the exercise is performed. This fundamental concept is known as the speed-duration relationship, and for exercise durations of ~2–40 minutes, can be modeled by the hyperbolic equation
 
 $$
 t = \frac{D'}{S - CS} \
