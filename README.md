@@ -1,6 +1,6 @@
 # Speed Duration Visualization
 
-This repo contains the code used to create an example marginal plot. This scatterplot displays the critical speed (CS) and curvature constant (D') for 320 elite men and women runners, while the boxplots and density curves display the distributions of CS and D' for men and women. Boxes display the median value with 25th and 75th percentiles and whiskers display the 5th and 95th percentiles.
+This repo contains the code used to create the marginal plot shown below. This scatterplot displays the critical speed (CS) and curvature constant (D') for 320 elite men and women runners, while the boxplots and density curves display the distributions of CS and D' for men and women. Boxes display the median value with 25th and 75th percentiles and whiskers display the 5th and 95th percentiles.
 
 
 ![speed_duration](https://github.com/user-attachments/assets/94d4c485-8556-4f90-9fc8-f11e4aaf1948)
