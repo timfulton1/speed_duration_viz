@@ -13,6 +13,6 @@ $$
 t = \frac{D'}{S - CS} \
 $$
 
-where `t` is the performance time (s), `D'` is the curvature constant (m), `S` is the average speed (m/s), and `CS` is the critical speed (m/s). Critical speed is the fastest speed that can be sustained primarily by aerobic metabolism while still achieving a metabolic steady state. Critical speed is also a metabolic threshold such that running at speeds faster than CS will cause increased reliance on anaerobic metabolism and a greater accumulation of fatigue-inducing metabolites. For a given speed faster than CS, the time until task failure is dependent on the magnitude of D', suggesting that D'can be viewed as a fatigue buffer (or fatigue constant). 
+where `t` is the performance time (s), `D'` is the curvature constant (m), `S` is the average speed (m/s), and `CS` is the critical speed (m/s). Critical speed is the fastest speed that can be sustained primarily by aerobic metabolism while still achieving a metabolic steady state. Critical speed is also a metabolic threshold such that running at speeds faster than CS will cause increased reliance on anaerobic metabolism and a greater accumulation of fatigue-inducing metabolites. For a given speed faster than CS, the time until task failure is dependent on the magnitude of D', suggesting that D' can be viewed as a fatigue buffer (or fatigue constant). 
 
 
