@@ -6,7 +6,7 @@ library(forcats)
 library(showtext)
 
 # Load data
-speed_duration <- read.csv("data/cs_data.csv")
+speed_duration <- read.csv("01_data/cs_data.csv")
 
 # Assign colors
 color1 = "#edae49"
@@ -140,7 +140,7 @@ final_plot <- density_x + plot_spacer() + plot_spacer() + boxplot_x + plot_space
 
 # Save the plot
 ggsave(
-  "plots/speed_duration.png", 
+  "03_plots/speed_duration.png", 
   plot = final_plot, 
   width = 8,
   height = 8,
